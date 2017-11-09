@@ -119,6 +119,7 @@ object WireApplication {
     bind [UserAccountsController]          to new UserAccountsController()
     bind [SharingController]         to new SharingController()
     bind [NavigationController]      to new NavigationController()
+    bind [CreateAccountController]   to new CreateAccountController()
 
 
     // current conversation data
